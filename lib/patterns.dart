@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_patterns/data/rest/rest_api_screen.dart';
 
 enum PatternSection {
   data("1. Data");
@@ -9,7 +10,7 @@ enum PatternSection {
 }
 
 enum Pattern {
-  restApi(PatternSection.data, "Rest API", Placeholder());
+  restApi(PatternSection.data, "Rest API (dio)", RestApiScreen());
 
   final PatternSection section;
   final String title;

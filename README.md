@@ -1,16 +1,10 @@
-# flutter_patterns
+# Flutter Patterns
 
-A collection of Flutter solutions to common mobile development patterns
+A collection of Flutter solutions to common mobile development patterns.
 
-## Getting Started
+Each screen focuses on implementing a specific pattern but it's not necessarily production-ready code because some details like state management and overall architecture are omitted for simplicity.
 
-This project is a starting point for a Flutter application.
+## Table of Contents
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Data
+- [REST API (dio)](./lib/data/rest)
